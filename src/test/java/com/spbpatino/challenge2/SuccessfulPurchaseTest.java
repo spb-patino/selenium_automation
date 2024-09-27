@@ -106,7 +106,7 @@ public class SuccessfulPurchaseTest {
         }
 
         @AfterEach
-        public void tearDown() {
+        public void RunAfterEach() {
                 driver.quit();
         }
 }
