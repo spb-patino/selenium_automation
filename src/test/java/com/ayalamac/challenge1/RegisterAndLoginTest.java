@@ -69,6 +69,8 @@ public class RegisterAndLoginTest {
 
    @AfterEach
    public void RunAfterEach() {
-       driver.close();
+        try { Thread.sleep(1234); }
+        catch (InterruptedException e) { e.printStackTrace(); }
+        driver.close();
    }
 }
